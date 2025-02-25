@@ -1,0 +1,15 @@
+#spring:
+#  application:
+#    name: LambdaSqsS3
+#  servlet:
+#    multipart:
+#      enabled: true
+#      max-file-size: 2MB
+#      max-request-size: 2MB
+#
+#aws:
+#  region: ap-south-1
+#  s3:
+#    bucket: my-awesome-buckett
+#  sqs:
+#    queue-url: https://sqs.ap-south-1.amazonaws.com/423623849961/my-awesome-queue
